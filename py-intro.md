@@ -175,19 +175,6 @@ points *= 2 # same as points = points * 2
 
 ---
 
-## Write some more Python
-
-<!-- TODO add exercises -->
-
-1. Clone the following repo:
-   `https://github.com/momentum-team-8/examples/tree/main/js-hello-world-exercise`
-2. Open the repo in VS Code. You'll be working on the exercises in `main.js`.
-3. Open `index.html` in your browser.
-4. In the browser, open the dev tools and go to the JavaScript console by clicking on the "Console" tab.
-5. Work on exercises 1-8. Uncomment the necessary lines in each exercise as you work on it. When you make a change in the javascript file, save it and then reload the index.html page in the browser. You should see the `console.log()` output in the console.
-
----
-
 ## Expressions and statements in Python
 
 In a computer language, a group of words, numbers, and operators that performs a specific task is a **statement**. We say a statement is "run" or "executed".
@@ -210,6 +197,17 @@ Statements are executed to make something happen.
 - Whereas JavaScript runs in the browser, Python runs on the server, executing these statements one after another in the order they are written.
 - Like JavaScript, Python has conditionals and loops that control the flow of execution.
 - One notable difference is that Python functions must be defined in the program _above_ where they are called. Because of hoisting, JavaScript functions can be defined anywhere. Python simply reads from top to bottom of the program and does not have hoisting.
+
+---
+
+## User Input
+
+In Python, users enter data in the terminal. That data is by default a string and can be stored in a variable.
+
+```py
+user_input = input("Do you want to play again? ")
+# prints "Do you want to play again? in the terminal. Whatever the user enters will be assigned, as a string, to the variable user_input
+```
 
 ---
 
