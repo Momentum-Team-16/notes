@@ -11,5 +11,5 @@ Registration Redux. The simplest way to incorporate this tool is to:
 1. `pipenv install django-registration-redux`
 2. Add `registration` to the list of INSTALLED_APPS in `settings.py` at the top.
 3. Follow the directions for the "Simple" (one step) setup found [here](https://django-registration-redux.readthedocs.io/en/latest/simple-backend.html).
-4. Make sure you have a template called `base.html` and that it contains `{% block content %}`.
+4. Make sure you have a template called `base.html` and that it contains `{% block content %}{% endblock %}`.
 
