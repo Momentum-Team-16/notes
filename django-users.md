@@ -9,4 +9,5 @@ the options can be found in this [article](https://simpleisbetterthancomplex.com
 You *can* build your own registration, mechanism for users to sign up and log in, but we are going to use a tool for that called Django
 Registration Redux. The simplest way to incorporate this tool is to:
 1. `pipenv install django-registration-redux`
-2. Follow the directions for the "Simple" (one step) setup found [here](https://django-registration-redux.readthedocs.io/en/latest/simple-backend.html).
+2. Add 'registration` to the list of INSTALLED_APPS in `settings.py` at the top.
+3. Follow the directions for the "Simple" (one step) setup found [here](https://django-registration-redux.readthedocs.io/en/latest/simple-backend.html).
