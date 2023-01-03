@@ -15,7 +15,7 @@ class Post(models.Model):
   updated_at = models.DateTimeField(auto_now=True)
   
   def __str__(self):
-    return f"Post {self.id} by {self.user} on {self.creayed_at}"
+    return f"Post {self.id} by {self.user} on {self.created_at}"
 ```
 ---  
 
