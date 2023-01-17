@@ -1,4 +1,4 @@
-# Notes from class
+# Notes
 
 ## Table of Contents
 
@@ -26,10 +26,15 @@
 - [Object Oriented Programming in Python](py-oo-programming.md)
 - [A Tour of Django](django-tour.md)
 - [Structure of Django Diagram](django-diagram.md)
-- [Django Models]()
+- [Django Models](django-models.md)
 - [O2M and M2M Diagram](django-relationships.md)
 
-### Phase 3: Back End -- Django & Django REST Framework
+### Phase 3
+
+#### Back End
 
 - [Django Queries Cheat Sheet](django-queries.md)
-- [Full-text Search with Postgres]()
+
+#### Front End
+
+- [JS for React](js-for-react.md)
