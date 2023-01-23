@@ -67,7 +67,7 @@ You could represent all the daily records (collection) for a specific habit like
 
 ❌ `habits/1/daily_records/4`
 
-✅ `daily_records/4`
+✅ `daily-records/4`
 
 ### 📌 Consider what you should include in your API and what you should leave out
 
