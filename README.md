@@ -34,6 +34,7 @@
 #### Back End
 
 - [Django Queries Cheat Sheet](django-queries.md)
+- [REST API Development 101](rest.md)
 
 #### Front End
 
